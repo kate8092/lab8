@@ -1,0 +1,169 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Шапка */
+.header {
+    background-color: #84c9f4;
+    text-align: center;
+
+}
+
+.imglogo {
+	width: 200px;
+}
+
+.soc{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: lightblue;
+    margin: 0 40px;
+}
+
+.soc:hover{
+    color: #333;
+}
+
+
+.logo {
+    font-size: 5em;
+    font-weight: bold;
+    color: #28314a;
+}
+
+.menu-parent {
+	display: flex;
+	align-items: center;
+	background-color: #28314a;
+	height: 50px;
+}
+
+.menu-item {
+	text-align: center;
+	display: flex;
+	width: 50%;
+    align-items: center;
+	padding: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fbc64a;
+
+
+}
+
+/* Секция с текстом */
+.text-section {
+    display: flex; /* Используем flexbox для выравнивания */
+    align-items: center; /* Вертикальное выравнивание */
+    justify-content: center; /* Горизонтальное выравнивание */
+    height: 600px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.image-placeholder {
+    width: 50%; /* Занимает ровно половину ширины секции */
+    height: 100%; /* Растягивается на высоту родителя */
+    background-image: url('http://site/wp-content/uploads/2024/12/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.text-content {
+    width: 50%; /* Занимает ровно половину ширины секции */
+    padding: 20px; /* Отступы для удобства */
+    text-align: center;
+}
+
+.text-content h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #28314a;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #28314a;
+}
+
+/* Секция с арками */
+.arcs-section {
+	height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url(images/3.png);
+    background-size: cover; /* Картинка заполняет блок */
+    background-position: center; /* Центрирование картинки */
+    background-repeat: no-repeat; /* Отключает повтор картинки */
+    border-radius: 5px; /* Закругленные углы */
+    position: relative;
+}
+
+
+.bye {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+    width: 300px;
+    height: 40%;
+	background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-color: fbc64a;
+    border-style: solid;
+    border-width: 3px;
+    color: #28314a;
+
+
+}
+
+/* Секция с карточками */
+.cards-section {
+    display: flex;
+    justify-content: space-around; /* Равномерное распределение */
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.card {
+    width: 30%; /* Ширина каждой карточки */
+    height: auto; /* Автоматическая высота, чтобы подстраиваться под изображение */
+    text-align: center;
+    border-radius: 5px; /* Закругленные углы для изображений */
+    overflow: hidden; /* Обрезка, если изображение выйдет за пределы */
+}
+
+.card img {
+    width: 100%; /* Изображение занимает всю ширину карточки */
+    height: auto; /* Сохраняется соотношение сторон */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.qazx {
+    text-align: center;
+}
+/* Подвал */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
